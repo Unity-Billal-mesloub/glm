@@ -20,7 +20,7 @@ This library works perfectly with *[OpenGL](https://www.opengl.org)* but it also
 For more information about *GLM*, please have a look at the [manual](manual.md) and the [API reference documentation](http://glm.g-truc.net/0.9.9/api/modules.html).
 The source code and the documentation are licensed under either the [Happy Bunny License (Modified MIT) or the MIT License](manual.md#section0).
 
-Thanks for contributing to the project by [submitting pull requests](https://github.com/g-truc/glm/pulls).
+Thanks for contributing to the project by [submitting pull requests](https://github.com/Unity-Billal-mesloub/glm/pulls).
 
 ```cpp
 #include <glm/vec3.hpp> // glm::vec3
@@ -41,17 +41,17 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 }
 ```
 
-## [Lastest release](https://github.com/g-truc/glm/releases/latest)
+## [Lastest release](https://github.com/Unity-Billal-mesloub/glm/releases/latest)
 
 ## Project Health
 
 | Service | Status |
 | ------- | ------ |
-| [GitHub actions](https://github.com/g-truc/glm/actions)| [![GLM tests](https://github.com/g-truc/glm/actions/workflows/test.yml/badge.svg?event=push)](https://github.com/g-truc/glm/actions/workflows/c.i.yml)
+| [GitHub actions](https://github.com/Unity-Billal-mesloub/glm/actions)| [![GLM tests](https://github.com/Unity-Billal-mesloub/glm/actions/workflows/test.yml/badge.svg?event=push)](https://github.com/Unity-Billal-mesloub/glm/actions/workflows/c.i.yml)
 
 ## Release notes
 
-### [GLM 0.9.9.9](https://github.com/g-truc/glm/releases/tag/0.9.9.9) - 2024-01-XX
+### [GLM 0.9.9.9](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.9.9) - 2024-01-XX
 #### Features:
 - Added *GLM_EXT_scalar_reciprocal* with tests
 - Added *GLM_EXT_vector_reciprocal* with tests
@@ -74,7 +74,7 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 - Fixed `glm::angle` discards the sign of result for angles in range (2*pi-1, 2*pi) #1038
 - Removed ban on using `glm::string_cast` with *CUDA* host code #1041
 
-### [GLM 0.9.9.8](https://github.com/g-truc/glm/releases/tag/0.9.9.8) - 2020-04-13
+### [GLM 0.9.9.8](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.9.8) - 2020-04-13
 #### Features:
 - Added *GLM_EXT_vector_intX* and *GLM_EXT_vector_uintX* extensions
 - Added *GLM_EXT_matrix_intX* and *GLM_EXT_matrix_uintX* extensions
@@ -88,7 +88,7 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 - Fixed for `glm::length` using arch64 #992
 - Fixed singularity check for `glm::quatLookAt` #770
 
-### [GLM 0.9.9.7](https://github.com/g-truc/glm/releases/tag/0.9.9.7) - 2020-01-05
+### [GLM 0.9.9.7](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.9.7) - 2020-01-05
 #### Improvements:
 - Improved *Neon* support with more functions optimized #950
 - Added *CMake* *GLM* interface #963
@@ -104,7 +104,7 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 - Fixed Wimplicit-int-float-conversion warnings with clang 10+ #986
 - Fixed *GLM_EXT_matrix_clip_space* `perspectiveFov`
 
-### [GLM 0.9.9.6](https://github.com/g-truc/glm/releases/tag/0.9.9.6) - 2019-09-08
+### [GLM 0.9.9.6](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.9.6) - 2019-09-08
 #### Features:
 - Added *Neon* support #945
 - Added *SYCL* support #914
@@ -131,13 +131,13 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 #### Deprecation:
  - Removed CMake install and uninstall scripts
 
-### [GLM 0.9.9.5](https://github.com/g-truc/glm/releases/tag/0.9.9.5) - 2019-04-01
+### [GLM 0.9.9.5](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.9.5) - 2019-04-01
 #### Fixes:
 - Fixed build errors when defining `GLM_ENABLE_EXPERIMENTAL` #884 #883
 - Fixed `if constexpr` warning #887
 - Fixed missing declarations for `glm::frexp` and `glm::ldexp` #886
 
-### [GLM 0.9.9.4](https://github.com/g-truc/glm/releases/tag/0.9.9.4) - 2019-03-19
+### [GLM 0.9.9.4](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.9.4) - 2019-03-19
 #### Features:
 - Added `glm::mix` implementation for matrices in *GLM_EXT_matrix_common/ #842
 - Added *CMake* `BUILD_SHARED_LIBS` and `BUILD_STATIC_LIBS` build options #871
@@ -154,7 +154,7 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 - Fixed `glm::vec1` include #856
 - Ignore `.vscode` #848
 
-### [GLM 0.9.9.3](https://github.com/g-truc/glm/releases/tag/0.9.9.3) - 2018-10-31
+### [GLM 0.9.9.3](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.9.3) - 2018-10-31
 #### Features:
 - Added `glm::equal` and `glm::notEqual` overload with max ULPs parameters for scalar numbers #121
 - Added `GLM_FORCE_SILENT_WARNINGS` to silent *GLM* warnings when using language extensions but using W4 or Wpedantic warnings #814 #775
@@ -170,12 +170,12 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 - Fixed `glm::bitfieldInsert` according to GLSL spec #818
 - Fixed `glm::refract` for negative 'k' #808
 
-### [GLM 0.9.9.2](https://github.com/g-truc/glm/releases/tag/0.9.9.2) - 2018-09-14
+### [GLM 0.9.9.2](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.9.2) - 2018-09-14
 #### Fixes:
 - Fixed `GLM_FORCE_CXX**` section in the manual
 - Fixed default initialization with vector and quaternion types using `GLM_FORCE_CTOR_INIT` #812
 
-### [GLM 0.9.9.1](https://github.com/g-truc/glm/releases/tag/0.9.9.1) - 2018-09-03
+### [GLM 0.9.9.1](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.9.1) - 2018-09-03
 #### Features:
 - Added `bitfieldDeinterleave` to *GLM_GTC_bitfield*
 - Added missing `glm::equal` and `glm::notEqual` with epsilon for quaternion types to *GLM_GTC_quaternion*
@@ -208,7 +208,7 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 - Fixed invalid conversion from int scalar with vec4 constructor when using SSE instruction
 - Fixed infinite loop in random functions when using negative radius values using an assert #739
 
-### [GLM 0.9.9.0](https://github.com/g-truc/glm/releases/tag/0.9.9.0) - 2018-05-22
+### [GLM 0.9.9.0](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.9.0) - 2018-05-22
 #### Features:
 - Added *RGBM* encoding in *GLM_GTC_packing* #420
 - Added *GLM_GTX_color_encoding* extension
@@ -283,7 +283,7 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 - Removed `glm::uninitialize`
 
 ---
-### [GLM 0.9.8.5](https://github.com/g-truc/glm/releases/tag/0.9.8.5) - 2017-08-16
+### [GLM 0.9.8.5](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.8.5) - 2017-08-16
 #### Features:
 - Added *Conan* package support #647
 
@@ -294,7 +294,7 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 - Fixed `simd_mat4` build error #652
 
 ---
-### [GLM 0.9.8.4](https://github.com/g-truc/glm/releases/tag/0.9.8.4) - 2017-01-22
+### [GLM 0.9.8.4](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.8.4) - 2017-01-22
 #### Fixes:
 - Fixed *GLM_GTC_packing* test failing on *GCC* x86 due to denorms #212 #577
 - Fixed `POPCNT` optimization build in *Clang* #512
@@ -306,7 +306,7 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 - Fixed `GLM_FORCE_CXX11` with Clang and libstlc++ which wasn't using C++11 STL features. #604
 
 ---
-### [GLM 0.9.8.3](https://github.com/g-truc/glm/releases/tag/0.9.8.3) - 2016-11-12
+### [GLM 0.9.8.3](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.8.3) - 2016-11-12
 #### Improvements:
 - Broader support of `GLM_FORCE_UNRESTRICTED_GENTYPE` #378
 
@@ -318,7 +318,7 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 - Fixed *CMake* `find_package` with version specification #572 #573
 
 ---
-### [GLM 0.9.8.2](https://github.com/g-truc/glm/releases/tag/0.9.8.2) - 2016-11-01
+### [GLM 0.9.8.2](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.8.2) - 2016-11-01
 #### Improvements:
 - Added *Visual C++* 15 detection
 - Added *Clang* 4.0 detection
@@ -331,7 +331,7 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 - Fixed *Visual C++* `constexpr` build error #555, #556
 
 ---
-### [GLM 0.9.8.1](https://github.com/g-truc/glm/releases/tag/0.9.8.1) - 2016-09-25
+### [GLM 0.9.8.1](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.8.1) - 2016-09-25
 #### Improvements:
 - Optimized quaternion `glm::log` function #554
 
@@ -343,7 +343,7 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 - Fixed packing/unpacking function fixed for 5_6_5 and 5_5_5_1 #552
 
 ---
-### [GLM 0.9.8.0](https://github.com/g-truc/glm/releases/tag/0.9.8.0) - 2016-09-11
+### [GLM 0.9.8.0](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.8.0) - 2016-09-11
 #### Features:
 - Added right and left handed projection and clip control support #447 #415 #119
 - Added `glm::compNormalize` and `glm::compScale` functions to *GLM_GTX_component_wise*
@@ -398,7 +398,7 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 - Deprecated `GLM_MESSAGES`, use `GLM_FORCE_MESSAGES` instead
 
 ---
-### [GLM 0.9.7.6](https://github.com/g-truc/glm/releases/tag/0.9.7.6) - 2016-07-16
+### [GLM 0.9.7.6](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.7.6) - 2016-07-16
 #### Improvements:
 - Added pkg-config file #509
 - Updated list of compiler versions detected
@@ -411,7 +411,7 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 - Fixed scalar reciprocal functions (GTC_reciprocal) #520
 
 ---
-### [GLM 0.9.7.5](https://github.com/g-truc/glm/releases/tag/0.9.7.5) - 2016-05-24
+### [GLM 0.9.7.5](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.7.5) - 2016-05-24
 #### Improvements:
 - Added Visual C++ Clang toolset detection
 
@@ -425,7 +425,7 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 - Fixed intersectRayTriangle to not do any unintentional backface culling
 
 ---
-### [GLM 0.9.7.4](https://github.com/g-truc/glm/releases/tag/0.9.7.4) - 2016-03-19
+### [GLM 0.9.7.4](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.7.4) - 2016-03-19
 #### Fixes:
 - Fixed asinh and atanh warning with C++98 STL #484
 - Fixed polar coordinates function latitude #485
@@ -436,7 +436,7 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 - Fixed various undefined reference errors #490
 
 ---
-### [GLM 0.9.7.3](https://github.com/g-truc/glm/releases/tag/0.9.7.3) - 2016-02-21
+### [GLM 0.9.7.3](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.7.3) - 2016-02-21
 #### Improvements:
 - Added AVX512 detection
 
@@ -447,7 +447,7 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 - Fixed 64 bits constants warnings on GCC #463
 
 ---
-### [GLM 0.9.7.2](https://github.com/g-truc/glm/releases/tag/0.9.7.2) - 2016-01-03
+### [GLM 0.9.7.2](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.7.2) - 2016-01-03
 #### Fixes:
 - Fixed GTC_round floorMultiple/ceilMultiple #412
 - Fixed GTC_packing unpackUnorm3x10_1x2 #414
@@ -461,7 +461,7 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 - Fixed Cygwin build errors when using C++11 #405
 
 ---
-### [GLM 0.9.7.1](https://github.com/g-truc/glm/releases/tag/0.9.7.1) - 2015-09-07
+### [GLM 0.9.7.1](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.7.1) - 2015-09-07
 #### Improvements:
 - Improved constexpr for constant functions coverage #198
 - Added to_string for quat and dual_quat in GTX_string_cast #375
@@ -478,7 +478,7 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 - Removed unused func_noise.* files #398
 
 ---
-### [GLM 0.9.7.0](https://github.com/g-truc/glm/releases/tag/0.9.7.0) - 2015-08-02
+### [GLM 0.9.7.0](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.7.0) - 2015-08-02
 #### Features:
 - Added GTC_color_space: convertLinearToSRGB and convertSRGBToLinear functions
 - Added 'fmod' overload to GTX_common with tests #308
@@ -517,11 +517,11 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 - Removed GTX_multiple, replaced by GTC_round
 
 ---
-### [GLM 0.9.6.3](https://github.com/g-truc/glm/releases/tag/0.9.6.3) - 2015-02-15
+### [GLM 0.9.6.3](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.6.3) - 2015-02-15
 - Fixed Android doesn't have C++ 11 STL #284
 
 ---
-### [GLM 0.9.6.2](https://github.com/g-truc/glm/releases/tag/0.9.6.2) - 2015-02-15
+### [GLM 0.9.6.2](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.6.2) - 2015-02-15
 #### Features:
 - Added display of GLM version with other GLM_MESSAGES
 - Added ARM instruction set detection
@@ -546,7 +546,7 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 - Fixed memory corruption (undefined behaviour) #303
 
 ---
-### [GLM 0.9.6.1](https://github.com/g-truc/glm/releases/tag/0.9.6.1) - 2014-12-10
+### [GLM 0.9.6.1](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.6.1) - 2014-12-10
 #### Features:
 - Added GLM_LANG_CXX14_FLAG and GLM_LANG_CXX1Z_FLAG language feature flags
 - Added C++14 detection
@@ -568,7 +568,7 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 - Fixed C++ language restriction using GLM_FORCE_CXX**
 
 ---
-### [GLM 0.9.6.0](https://github.com/g-truc/glm/releases/tag/0.9.6.0) - 2014-11-30
+### [GLM 0.9.6.0](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.6.0) - 2014-11-30
 #### Features:
 - Exposed template vector and matrix types in 'glm' namespace #239, #244
 - Added GTX_scalar_multiplication for C++ 11 compiler only #242
@@ -631,7 +631,7 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 - Removed CUDA 3.0 to 3.2 support
 
 ---
-### [GLM 0.9.5.4 - 2014-06-21](https://github.com/g-truc/glm/releases/tag/0.9.5.4)
+### [GLM 0.9.5.4 - 2014-06-21](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.5.4)
 - Fixed non-utf8 character #196
 - Added FindGLM install for CMake #189
 - Fixed GTX_color_space - saturation #195
@@ -732,7 +732,7 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 - Hidden matrix_inverse function implementation detail into private section
 
 ---
-### [GLM 0.9.4.6](https://github.com/g-truc/glm/releases/tag/0.9.4.6) - 2013-09-20
+### [GLM 0.9.4.6](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.4.6) - 2013-09-20
 - Fixed detection to select the last known compiler if newer version #106
 - Fixed is_int and is_uint code duplication with GCC and C++11 #107 
 - Fixed test suite build while using Clang in C++11 mode
@@ -819,7 +819,7 @@ glm::mat4 camera(float Translate, glm::vec2 const& Rotate)
 - Requires Visual Studio 2005, GCC 4.2, Clang 2.6, Cuda 3, ICC 2013 or a C++98 compiler
 
 ---
-### [GLM 0.9.3.4](https://github.com/g-truc/glm/releases/tag/0.9.3.4) - 2012-06-30
+### [GLM 0.9.3.4](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.3.4) - 2012-06-30
 - Added SSE4 and AVX2 detection.
 - Removed VIRTREV_xstream and the incompatibility generated with GCC
 - Fixed C++11 compiler option for GCC
@@ -887,12 +887,12 @@ generation distribution
 - Added GLSL core noise functions
 
 ---
-### [GLM 0.9.2.7](https://github.com/g-truc/glm/releases/tag/0.9.2.7) - 2011-10-24
+### [GLM 0.9.2.7](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.2.7) - 2011-10-24
 - Added more swizzling constructors
 - Added missing non-squared matrix products
 
 ---
-### [GLM 0.9.2.6](https://github.com/g-truc/glm/releases/tag/0.9.2.6) - 2011-10-01
+### [GLM 0.9.2.6](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.2.6) - 2011-10-01
 - Fixed half based type build on old GCC
 - Fixed /W4 warnings on Visual C++
 - Fixed some missing l-value swizzle operators
@@ -935,7 +935,7 @@ generation distribution
 - Updated quaternion slerp interpolation
 
 ---
-### [GLM 0.9.1.3](https://github.com/g-truc/glm/releases/tag/0.9.1.3) - 2011-05-07
+### [GLM 0.9.1.3](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.1.3) - 2011-05-07
 - Fixed bugs
 
 ---
@@ -957,7 +957,7 @@ generation distribution
 - Fixed Linux build
 
 ---
-### [GLM 0.9.0.8](https://github.com/g-truc/glm/releases/tag/0.9.0.8) - 2011-02-13
+### [GLM 0.9.0.8](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.0.8) - 2011-02-13
 - Added quaternion product operator.
 - Clarify that GLM is a header only library.
 
@@ -971,7 +971,7 @@ generation distribution
 - Fixed trunc implementation
 
 ---
-### [GLM 0.9.0.7](https://github.com/g-truc/glm/releases/tag/0.9.0.7) - 2011-01-30
+### [GLM 0.9.0.7](https://github.com/Unity-Billal-mesloub/glm/releases/tag/0.9.0.7) - 2011-01-30
 - Added GLSL 4.10 packing functions
 - Added == and != operators for every types.
 
